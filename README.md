@@ -15,5 +15,5 @@ In this year(2020), I am building high-performance machine learning systems(Hype
 >>> ['Machine Learning System', 'Parallel', 'High Performance Computing', 'Modern C++']
 
 >>> ganler | goal | grep 2020
->>> [goal@2020]: Apply 2021 Fall Ph.D.
+>>> [goal@2020]: Apply for 2021 Fall Ph.D.
 ```
