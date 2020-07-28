@@ -11,3 +11,5 @@ In this year(2020), I am building high-performance machine learning systems(Hype
 >>> * Tech   : ['Machine Learning Systems', 'Parallel Computing', 'High Performance Computing', 'Modern C++']
     * Hobbies: ['Digital Illustration', 'Cooking']
 ```
+
+[![Ganler's Github stats](https://github-readme-stats.vercel.app/api?username=ganler&hide_rank=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
