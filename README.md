@@ -1,4 +1,4 @@
-# This is `ganler`! (real_name = Jiawei Liu)
+# This is Jiawei Liu(aka Ganler)
 
 In this year(2020), I am building high-performance machine learning systems(HyperPose@TensorLayer, Model Server@ByteDance).
 ```bash
