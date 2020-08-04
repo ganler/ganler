@@ -12,4 +12,4 @@ In this year(2020), I am building high-performance machine learning systems(Hype
     * Hobbies: ['Digital Illustration', 'Cooking']
 ```
 
-[![Ganler's Github stats](https://github-readme-stats.vercel.app/api?username=ganler&hide_rank=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
+![Ganler's github stats](https://github-readme-stats.vercel.app/api?username=ganler&show_icons=true&theme=tokyonight)
