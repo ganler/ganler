@@ -1,7 +1,11 @@
-# This is Jiawei Liu(aka Ganler)
+# Jiawei Liu (aka Ganler)
 
-"Ganler" means 甘楽 in Chinese/Japanese, which is from my favorite animation デュラララ!!(DURARARA!!).
+Cooking ML Systems!☢️
 
-In this year(2020), I am building high-performance machine learning systems(HyperPose@TensorLayer, Model Server@ByteDance).
+* Pose estimation -- HyperPose@TensorLayer
+* Model serving system@ByteDance
+* Generic video analytic framework -- CBS@NYUSystemGroup.
 
 ![Ganler's github stats](https://github-readme-stats.vercel.app/api?username=ganler&show_icons=true&theme=tokyonight)![Codes](https://github-readme-stats.vercel.app/api/top-langs/?username=ganler&count_private=false&layout=compact&hide=Jupyter%20Notebook)
+
+> "Ganler" means 甘楽, which is from my favorite animation デュラララ!!(DURARARA!!).
