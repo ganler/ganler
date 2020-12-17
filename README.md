@@ -1,6 +1,8 @@
 # Jiawei Liu (aka Ganler)
 
-Cooking ML Systems!☢️
+**News**: Welcome to join our system seminar! https://seminar-sys2021.github.io/
+
+Cooking ML Systems! ☢️
 
 * Pose estimation -- HyperPose@TensorLayer
 * Model serving system@ByteDance
