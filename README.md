@@ -1,7 +1,5 @@
 # Jiawei Liu (aka Ganler)
 
-**News**: Welcome to join our system seminar! https://seminar-sys2021.github.io/
-
 Cooking ML Systems! ☢️
 
 * Pose estimation -- HyperPose@TensorLayer
