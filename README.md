@@ -1,7 +1,5 @@
 # Jiawei Liu (aka Ganler)
 
-Cooking ML Systems! ☢️
-
 * Pose estimation -- HyperPose@TensorLayer
 * Model serving system@ByteDance
 * Generic video analytic framework -- CompareSkip@NYUSystemGroup.
