@@ -2,7 +2,7 @@
 
 Building amazing big data systems:
 
-* Parallel Graph Processing -- @AlibabaDAMO
+* Parallel Data Processing -- @AlibabaDAMO
 * Pose estimation -- HyperPose@TensorLayer
 * Model serving -- @ByteDance
 * Generic video analytic framework -- CompareSkip@NYUSystemGroup.
