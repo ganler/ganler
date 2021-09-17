@@ -1,11 +1,6 @@
 # Jiawei Liu (aka Ganler)
 
-Building amazing big data systems:
-
-* Parallel Data Processing -- @AlibabaDAMO
-* Pose estimation -- HyperPose@TensorLayer
-* Model serving -- @ByteDance
-* Generic video analytic framework -- CompareSkip@NYUSystemGroup.
+1st-year PhD student at UIUC. Building fast and reliable data systems.
 
 ![Ganler's github stats](https://github-readme-stats.vercel.app/api?username=ganler&show_icons=true&theme=tokyonight)![Codes](https://github-readme-stats.vercel.app/api/top-langs/?username=ganler&count_private=false&layout=compact&hide=Jupyter%20Notebook)
 
