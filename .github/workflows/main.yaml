@@ -1,0 +1,57 @@
+name: Metrics
+on:
+  # Schedule updates (each hour)
+  schedule: [{cron: "0 16 * * *"}]
+  # Lines below let you run workflow manually and on each commit (optional)
+  workflow_dispatch:
+  push: {branches: ["master"]}
+jobs:
+  metrics-main:
+    runs-on: ubuntu-latest
+    steps:
+      # See action.yml for all options
+      - uses: lowlighter/metrics@master
+        with:
+          # Your GitHub token
+          token: ${{ secrets.METRICS_TOKEN }}
+          
+          user: ganler
+          base: header, activity, community, repositories, metadata
+          filename: metrics-main.svg
+          template: classic
+          repositories: 200
+          repositories_batch: 50
+          base_indepth: yes
+          base_hireable: yes
+          
+  metrics-lang-noable:
+    runs-on: ubuntu-latest
+    steps:
+      # See action.yml for all options
+      - uses: lowlighter/metrics@master
+        with:
+          # Your GitHub token
+          token: ${{ secrets.METRICS_TOKEN }}
+          
+          plugin_languages: yes
+          plugin_languages_ignored: CMake, HTML, CSS, Makefile, Jupyter Notebook
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 8
+          plugin_languages_details: percentage
+          plugin_languages_indepth: no
+          plugin_languages_analysis_timeout: 30
+          plugin_languages_categories: programming
+          
+          plugin_notable: yes
+          plugin_notable_filter: stars:>200 forks:>50
+          plugin_notable_from: organization
+          plugin_notable_repositories: yes
+          plugin_notable_skipped: rms-support-letter/rms-support-letter.github.io
+          plugin_notable_indepth: no
+
+          user: ganler
+          base: ''
+          filename: metrics-lang-notable.svg
+          template: classic
+          repositories: 200
+          repositories_batch: 50
