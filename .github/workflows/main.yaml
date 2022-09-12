@@ -48,6 +48,7 @@ jobs:
           plugin_notable_repositories: yes
           plugin_notable_skipped: rms-support-letter/rms-support-letter.github.io
           plugin_notable_indepth: no
+          plugin_notable_types: commit, pull_request
 
           user: ganler
           base: ''
