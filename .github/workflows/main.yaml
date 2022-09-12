@@ -44,11 +44,11 @@ jobs:
           
           plugin_notable: yes
           plugin_notable_filter: stars:>200 forks:>50
-          plugin_notable_from: organization
+          plugin_notable_from: all
           plugin_notable_repositories: yes
           plugin_notable_skipped: rms-support-letter/rms-support-letter.github.io
           plugin_notable_indepth: no
-          plugin_notable_types: commit, pull_request
+          plugin_notable_self: yes
 
           user: ganler
           base: ''
