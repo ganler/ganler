@@ -43,11 +43,9 @@ jobs:
           plugin_languages_categories: programming
           
           plugin_notable: yes
-          plugin_notable_filter: stars:>200 forks:>50
+          plugin_notable_filter: stars:>100 forks:>40
           plugin_notable_from: orgnization
           plugin_notable_repositories: yes
-          plugin_notable_skipped: rms-support-letter/rms-support-letter.github.io
-          plugin_notable_indepth: yes
           plugin_notable_self: yes
 
           user: ganler
