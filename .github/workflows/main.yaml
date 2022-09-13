@@ -19,8 +19,8 @@ jobs:
           base: header, activity, community, repositories, metadata
           filename: metrics-main.svg
           template: classic
-          repositories: 200
-          repositories_batch: 50
+          repositories: 320
+          repositories_batch: 80
           base_indepth: yes
           base_hireable: yes
           
@@ -44,15 +44,16 @@ jobs:
           
           plugin_notable: yes
           plugin_notable_filter: stars:>200 forks:>50
-          plugin_notable_from: all
+          plugin_notable_from: orgnization
           plugin_notable_repositories: yes
           plugin_notable_skipped: rms-support-letter/rms-support-letter.github.io
-          plugin_notable_indepth: no
+          plugin_notable_indepth: yes
           plugin_notable_self: yes
 
           user: ganler
           base: ''
+          base_indepth: yes
           filename: metrics-lang-notable.svg
           template: classic
-          repositories: 200
-          repositories_batch: 50
+          repositories: 320
+          repositories_batch: 80
