@@ -50,7 +50,6 @@ jobs:
 
           user: ganler
           base: ''
-          base_indepth: yes
           filename: metrics-lang-notable.svg
           template: classic
           repositories: 320
