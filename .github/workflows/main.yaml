@@ -47,6 +47,7 @@ jobs:
           plugin_notable_from: orgnization
           plugin_notable_repositories: yes
           plugin_notable_indepth: yes
+          plugin_notable_self: no
 
           user: ganler
           base: ''
