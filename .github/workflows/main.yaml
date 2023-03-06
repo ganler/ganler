@@ -46,12 +46,11 @@ jobs:
           plugin_notable_filter: stars:>100 forks:>40
           plugin_notable_from: orgnization
           plugin_notable_repositories: yes
-          plugin_notable_self: yes
           plugin_notable_indepth: no
 
           user: ganler
           base: ''
           filename: metrics-lang-notable.svg
           template: classic
-          repositories: 200
-          repositories_batch: 50
+          repositories: 180
+          repositories_batch: 30
