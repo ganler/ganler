@@ -46,7 +46,7 @@ jobs:
           plugin_notable_filter: stars:>100 forks:>50
           plugin_notable_from: orgnization
           plugin_notable_repositories: yes
-          plugin_notable_indepth: no
+          plugin_notable_indepth: yes
 
           user: ganler
           base: ''
