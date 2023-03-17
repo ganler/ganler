@@ -2,7 +2,7 @@
 
 - **HOMEPAGE**: [Jiawei Liu](https://jiawei-site.github.io/)
 - **GOAL**: Making data systems reliably fast! 
-- **INTEREST**: Programming languages, compilers, LLM for __, fuzzing, and MLSys.
+- **INTEREST**: Programming Systems & Deep Learning
 
 <a href="https://github.com/ganler">
   <img align="center" width="49%" src="./metrics-main.svg" />
