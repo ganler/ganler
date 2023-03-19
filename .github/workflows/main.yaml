@@ -19,8 +19,8 @@ jobs:
           base: header, activity, community, repositories, metadata
           filename: metrics-main.svg
           template: classic
-          repositories: 180
-          repositories_batch: 30
+          repositories: 240
+          repositories_batch: 40
           base_indepth: yes
           base_hireable: yes
           
@@ -53,5 +53,5 @@ jobs:
           base: ''
           filename: metrics-lang-notable.svg
           template: classic
-          repositories: 180
-          repositories_batch: 30
+          repositories: 240
+          repositories_batch: 40
