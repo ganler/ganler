@@ -1,7 +1,6 @@
 ### `ganler`'s GitHub <p align="right">OPINIONS ARE MY OWN</p>
 
 - **HOMEPAGE**: [Jiawei Liu](https://jiawei-site.github.io/)
-- **GOAL**: Making data systems reliably fast! 
 - **INTEREST**: Programming Systems & Deep Learning
 
 <a href="https://github.com/ganler">
