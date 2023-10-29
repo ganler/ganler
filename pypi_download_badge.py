@@ -1,5 +1,9 @@
 if __name__ == "__main__":
     import requests
+    import os
+
+    cur_file_dir = os.path.dirname(os.path.abspath(__file__))
+    print("Output dir: ", cur_file_dir)
 
     projects = ["evalplus", "nnsmith"]
     for project in projects:
@@ -11,5 +15,5 @@ if __name__ == "__main__":
         badge_url = f"https://img.shields.io/badge/pip_install-{total_downloads}-white?style=social&logo=pypi&logoColor=b509ac"
         # compile it to an svg
         response = requests.get(badge_url)
-        with open(f"{project}_pypi.svg", "wb") as f:
+        with open(os.path.join(cur_file_dir, f"{project}_pypi.svg"), "wb") as f:
             f.write(response.content)
