@@ -9,10 +9,16 @@ jobs:
   badge-compile:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository content
+        uses: actions/checkout@v2
+      - name: Setup Python Version
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
       - name: Compile PyPI badges
         run: |
-          python3 -m pip install requests
-          python3 pypi_download_badge.py
+          python -m pip install requests
+          python pypi_download_badge.py
       - uses: EndBug/add-and-commit@v9
         with:
           token: ${{ secrets.METRICS_TOKEN }}
