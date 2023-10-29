@@ -6,6 +6,20 @@ on:
   workflow_dispatch:
   push: {branches: ["master"]}
 jobs:
+  badge-compile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Compile PyPI badges
+        run: |
+          python3 -m pip install requests
+          python3 pypi_download_badge.py
+      - uses: EndBug/add-and-commit@v9
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          default_author: github_actions
+          add: "*_badge.svg"
+          message: "Add PyPI badges"
+
   metrics-main:
     runs-on: ubuntu-latest
     steps:
@@ -14,7 +28,7 @@ jobs:
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
-          
+
           user: ganler
           base: header, activity, community, repositories, metadata
           filename: metrics-main.svg
@@ -23,7 +37,7 @@ jobs:
           repositories_batch: 40
           base_indepth: yes
           base_hireable: yes
-          
+
   metrics-lang-noable:
     runs-on: ubuntu-latest
     steps:
@@ -32,7 +46,7 @@ jobs:
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
-          
+
           plugin_languages: yes
           plugin_languages_ignored: CMake, HTML, CSS, Makefile, Jupyter Notebook
           plugin_languages_sections: most-used
@@ -41,7 +55,7 @@ jobs:
           plugin_languages_indepth: no
           plugin_languages_analysis_timeout: 30
           plugin_languages_categories: programming
-          
+
           plugin_notable: yes
           plugin_notable_filter: stars:>150 forks:>20
           plugin_notable_from: orgnization
