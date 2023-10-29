@@ -23,7 +23,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           default_author: github_actions
-          add: "*_badge.svg"
+          add: "*_pypi.svg"
           message: "Add PyPI badges"
 
   metrics-main:
