@@ -2,6 +2,8 @@ import requests
 
 
 def make_badge(project, downloads):
+    if downloads >= 1000:
+        downloads = f"{(downloads / 1000):.1f}".rstrip(".0") + "k"
     badge_url = f"https://img.shields.io/badge/pip_install-{downloads}-white?style=social&logo=pypi&logoColor=b509ac"
     response = requests.get(badge_url)
     with open(os.path.join(cur_file_dir, f"{project}_pypi.svg"), "wb") as f:
